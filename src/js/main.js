@@ -1,5 +1,5 @@
 const add = document.getElementById("add");
-// console.log(add);
+const  textElement = document.getElementById("text");
 add.addEventListener("click",  () => {
-  console.log("hello");
+  console.log(textElement.value);
 });
